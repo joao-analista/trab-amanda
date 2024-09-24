@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Atletas</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cadastro de Atletas Olímpicos</h1>
+            <nav>
+                <a href="index.html">Voltar à Lista</a>
+            </nav>
+        </header>
+        <main>
+            <form id="formAtleta">
+                <input type="hidden" id="atletaIndex">
+                <input type="text" id="nome" placeholder="Nome" required>
+                <input type="text" id="nacionalidade" placeholder="Nacionalidade" required>
+                <input type="text" id="esporte" placeholder="Esporte" required>
+                <input type="text" id="anoNascimento" placeholder="Ano de Nascimento" required>
+                <input type="text" id="altura" placeholder="Altura (cm)" required>
+                <input type="text" id="peso" placeholder="Peso (kg)" required>
+                <input type="text" id="medalhasOuro" placeholder="Medalhas de Ouro" required>
+                <input type="text" id="medalhasPrata" placeholder="Medalhas de Prata" required>
+                <input type="text" id="medalhasBronze" placeholder="Medalhas de Bronze" required>
+                <input type="text" id="descricao" placeholder="Descrição" required>
+                <button type="submit">Salvar</button>
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
